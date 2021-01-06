@@ -1,0 +1,33 @@
+.panel {
+  -webkit-box-shadow: 0 8px 8px rgba(0,0,0,.07);
+  box-shadow: 0 8px 8px rgba(0,0,0,0.07);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+input {
+  width: 65% !important;
+  margin-right: 20px;
+}
+
+.dropdown-menu{
+  height:200px;
+  overflow-y:auto;
+}
+
+input[type=date] {
+  width: 50% !important;
+  margin-left: 25%;
+}
+
+.from_crypto, .to_crypto {
+  height: 80px;
+  border-width: 0.1px;
+  border-radius: 10px;
+  border-color: #eaeaea;
+  border-style: solid;
+  padding: 8px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include ('partials/head') %>
+</head>
+
+<body>
+  <div class="container">
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Exchange Crypto</h3>
+        </div>
+        <div class="panel-body">
+          <div class="from_crypto">
+            <p>From</p>
+            <div style="display: flex;">
+              <input type="number" class="form-control from-input" placeholder="From">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle from-but" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <span id="from-but-txt">Select</span> <span class="caret"></span>
+                </button>
+                <ul id="coin-menu-from" class="dropdown-menu from-menu">
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="to_crypto">
+            <p>To</p>
+            <div style="display: flex;">
+              <input type="number" class="form-control to-input" placeholder="To">
+              <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle to-but" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <span id="to-but-txt">Select</span> <span class="caret"></span>
+                </button>
+                <ul id="coin-menu-to" class="dropdown-menu to-menu">
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="target_date">
+            <input type="date" class="form-control date-input" placeholder="Date">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<%- include ('partials/script') %>
+
+</html>
