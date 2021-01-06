@@ -1,5 +1,5 @@
 # cryptoExchange
-Technical stacks are node.js and ejs for enabling server side rendering and coingecko api service was used for fetching historical data of token prices.
+Technical stacks are node.js, ejs, bootstrap and jquery for enabling server side rendering and coingecko api service was used for fetching historical data of token prices.
 SSR technique is helpful in situations like the client has a slow internet connection.
 Views and Public folder involves rendering files and css&js assets and calling coingecko apis are proceeded on the client side each time when users select date, from-currency and to-currency.
 Coingecko api service doesn't require any credentials and this service allows 10 api calls each second per IP address.
